@@ -1,0 +1,90 @@
+body{
+    background: hsl(347deg 58% 91%);
+    font-family: "Nunito", sans-serif;
+}
+#navigation{
+    width: 100%;
+}
+#navlink a:hover{
+    color:hsl(355deg 83% 51%) !important;
+}
+.bg-pink{
+    background-color: hsl(300deg 31% 81%) !important;
+}
+.txt-red{
+    color:hsl(355deg 83% 51%) !important;
+}
+.txt-white{
+    color:white !important;
+}
+.txt-p{
+    color:hsl(339deg 81% 78%) !important;
+}
+.fs-nav{
+    --tt-key: fs-nav !important;
+}
+@keyframes fs-nav {
+    0%{
+      font-size:0rem;
+    }
+    100%{
+      font-size: 1.75rem;
+    }
+  }
+.fs-heading{
+    --tt-key: fs-heading !important;
+}
+@keyframes fs-heading {
+    0%{
+      font-size:0rem;
+    }
+    100%{
+      font-size: 4rem;
+    }
+  }
+.fs-sub-h{
+    --tt-key: fs-sub-h !important;
+}
+@keyframes fs-sub-h {
+    0%{
+      font-size:0rem;
+    }
+    50%{
+        font-size:1.5rem;
+    }
+    100%{
+      font-size: 2.5rem;
+    }
+  }
+.fs-p{
+    --tt-key:fs-p !important;
+}
+@keyframes fs-p {
+    0%{
+      font-size:0rem;
+    }
+    50%{
+        font-size:1rem;
+    }
+    100%{
+      font-size: 1.5rem;
+    }
+  }
+.uppercase{
+    text-transform: uppercase !important;
+}
+.fw{
+    font-weight: 100 !important;
+}
+.letter-space{
+    line-height: 1.2;
+}
+.txt-align{
+    text-align: center !important;
+}
+.p-5{
+    padding-top: 5rem !important;
+}
+.mb-5{
+    margin-bottom: 7rem !important;
+}
